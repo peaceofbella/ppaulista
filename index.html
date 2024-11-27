@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Paladar Paulista</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+           <img src="https://i.ibb.co/3zYXZ18/logo.png" id="nav_logo">
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#dishes">Pratos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials_content">Projeto</a>
+                </li>
+            </ul>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#pratos">Pratos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projeto">Projeto</a>
+                </li>
+            </ul>
+
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div id="cta">
+                <h1 class="title">
+                    Explorando sabores,
+                    <span>Criando memórias!</span>
+                </h1>
+                
+                <p class="description">
+                    A culinária de São Paulo é um rico mosaico de influências culturais, 
+                    onde tradições regionais se encontram com inovações e sabores do mundo, 
+                    resultando em uma experiência gastronômica dinâmica e diversificada.
+                </p>
+                
+            </div>
+            
+            <div id="banner">
+                <div class="shape">
+                    <img src="Cópia de Cardápio do dia promoção popular moderno preto e amarelo.png">
+    
+                </div>
+            </div>
+        </section>
+
+        <section id="pratos">
+            <h2 class="section-title"> Receitas </h2>
+            <h3 class="section-subtitle">Pratos de cada região</h3>
+
+            <div id="dishes">
+                <div class="dish">
+
+                    <img src="bolinho bacalhau.jpeg" class="dish-image" alt=""
+                    height="175px">
+                   <h4>Região Sudeste</h4>
+                    <h3 class="dish-title">
+                     Bolinho de Bacalhau
+                    </h3>
+ 
+                    <span class="dish-description">
+                        O bolinho de bacalhau é apreciado na culinária brasileira. 
+                        Feito com bacalhau desfiado, batata cozida e temperos como cebola, salsinha e pimenta, a mistura é moldada em pequenas porções e frita até ficar dourada.
+                        
+                            </span>
+                            <a href = "https://www.tudogostoso.com.br/receita/40466-bolinho-de-bacalhau-tradicional.html"> </br> Bolinho de Bacalhau </a>
+
+                </div>
+
+                <div class="dish">
+    
+                    <img src="tutu de feijao.jpg" class="dish-image" alt=""
+                height="165px">
+                <h4>Região Sudeste</h4>
+                    <h3 class="dish-title">
+                      Tutu de Feijão
+                    </h3>
+
+                    <span class="dish-description">
+                        É um prato tradicional da culinária brasileira, 
+                        Feito à base de feijão, o tutu é preparado com o feijão cozido e amassado, misturado a ingredientes como cebola, alho, bacon e temperos.
+                        <a href = "https://www.tudogostoso.com.br/receita/367-tutu-de-feijao.html"> </br></br></br></br> Tutu de Feijão </a> 
+                    </span>
+                </div>
+
+                <div class="dish">
+                   
+
+                    <img src="caldeirada.jpg" class="dish-image" alt=""
+                    height="200px">
+                    <h4>Região Nordeste</h4>
+                       <h3 class="dish-title">
+                       Caldeirada
+                    </h3>
+
+                    <span class="dish-description">
+                        A caldeirada é um prato típico da culinária litorânea, 
+                        Trata-se de um ensopado rico, feito com uma variedade de frutos do mar, como peixes, camarões, lulas e mexilhões.
+                        <a href = https://www.tudogostoso.com.br/receita/3146-caldeirada-de-frutos-do-mar.html> </br></br></br> Caldeirada de Frutos do Mar</a> 
+                    </span>
+
+                </div>
+
+                <div class="dish">
+
+
+                    <img src="sanduiche.jpg" class="dish-image" alt=""
+                    height="150px">
+                    <h4>Região Sudeste</h4>
+                    <h3 class="dish-title">
+                     Sanduíche Bauru
+                    </h3>
+
+                    <span class="dish-description">
+                        É um sanduíche clássico da culinária brasileira, 
+                        Ele é feito com pão francês, recheado com carne assada (ou rosbife), queijo derretido, tomate, e picles se for de sua preferência.
+                        <a href = https://www.tudogostoso.com.br/receita/304496-sanduiche-bauru.html> </br></br></br></br></br></br> Sanduíche Bauru</a> 
+                    </span>
+
+                </div>
+            </div>
+
+            <div id="dishes2">
+                <div class="dish2">
+                    
+                    <img src="pamonha.webp" class="dish-image" alt=""
+                    height="150px">
+                   <h4>Região Centro-Oeste</h4>
+                    <h3 class="dish-title">
+                    Pamonha
+                    </h3>
+ 
+                    <span class="dish-description">
+                        A pamonha é uma iguaria típica do Brasil, 
+                        Feita a partir de milho verde ralado, ela é misturada com ingredientes que podem variar entre açúcar, sal, queijo ou até carne. 
+                        <a href = https://www.tudogostoso.com.br/receita/35-pamonha-doce.html> </br></br></br></br> Pamonha Doce</a> 
+                    </span>
+
+                </div>
+                <div class="dish2">
+    
+                    <img src="virada a paulista.jpg" class="dish-image" alt=""
+                height="150px">
+                <h4>Região Central</h4>
+                    <h3 class="dish-title">
+                       Virada à Paulista
+                    </h3>
+
+                    <span class="dish-description">
+                        É um prato típico da culinária paulista, 
+                        é composta por arroz, feijão, carne de porco, couve refogada e, muitas vezes, um omelete ou banana.
+                        <a href = https://www.tudogostoso.com.br/receita/26749-virado-a-paulista.html> </br></br></br></br></br> Virada à Paulista</a> 
+                    </span>
+                </div>
+
+                <div class="dish2">
+                   
+
+                    <img src="pequi.jpg" class="dish-image" alt=""
+                    height="170px">
+                    <h4>Região Centro-Oeste</h4>
+                       <h3
+                    class="dish-title">
+                    Arroz com Pequi
+                    </h3>
+
+                    <span class="dish-description">
+                        O arroz com pequi é um prato tradicional do noroeste paulista, 
+                        o arroz é cozido com os pedaços de pequi, que soltam seu óleo, conferindo um sabor intenso.
+                        <a href = https://www.tudogostoso.com.br/receita/2763-arroz-com-pequi.html> </br></br></br> Arroz com Pequi</a> 
+                    </span>
+
+                </div>
+
+                <div class="dish2">
+
+
+                    <img src="polenta.jpg" class="dish-image" alt=""
+                    height="200px">
+                    <h4>Região Sudeste </h4>
+                    <h3 class="dish-title">
+                      Frango com Polenta
+                    </h3>
+
+                    <span class="dish-description">
+                        O frango com polenta é um prato saboroso. O frango é cozido e a polenta pode ser servida frita ou cremosa, podendo variar as formas de serem feitas.
+                        <a href = https://www.tudogostoso.com.br/receita/83952-polenta-recheada-com-frango.html> </br></br> Polenta Recheada com Frango</a> 
+                    </span>
+                </div>
+            </div>
+            <div id="dishes2">
+                <div class="dish2">
+                    
+                    <img src="feijoada.jpg" class="dish-image" alt=""
+                    height="150px">
+                   <h4>Região Sudeste </h4>
+                    <h3 class="dish-title">
+                    Feijoada
+                    </h3>
+ 
+                    <span class="dish-description">
+                        Feita principalmente com feijão preto, a feijoada utiliza uma variedade de carnes, como a carne seca, linguiça, bacon e costela de porco. 
+                        Temperos como alho, cebola e folhas de louro são fundamentais para realçar o sabor.  
+                        <a href = https://www.tudogostoso.com.br/receita/2998-feijoada.html> </br></br></br>Feijoada</a> 
+                    </span>
+
+                </div>
+                <div class="dish2">
+    
+                    <img src="stro.jpg" class="dish-image" alt=""
+                height="150px">
+                <h4>Região Sudeste</h4>
+                    <h3 class="dish-title">
+                       Strogonoff de Frango
+                    </h3>
+
+                    <span class="dish-description">
+                        O strogonoff de frango é um prato icônico da culinária brasileira, muito apreciado por sua simplicidade, 
+                        cremosidade e sabor. Utilizando poucos ingredientes, se torna um prato delicioso.
+                        <a href = https://www.tudogostoso.com.br/receita/2462-strogonoff-de-frango.html> </br></br></br></br>Strogonoff de Frango</a> 
+                    </span>
+                </div>
+
+                <div class="dish2">
+                   
+
+                    <img src="pao de queijo.jpg" class="dish-image" alt=""
+                    height="170px">
+                    <h4>Região Sudeste</h4>
+                       <h3
+                    class="dish-title">
+                    Pão de Queijo
+                    </h3>
+
+                    <span class="dish-description">
+                        O pão de queijo é uma iguaria brasileira, com origens que remontam à época colonial.
+                         A receita tradicional utiliza polvilho (fécula de mandioca), que dá ao pão de queijo sua textura única e leve.
+                        <a href = https://www.tudogostoso.com.br/receita/1443-pao-de-queijo.html> </br></br></br>Pão de Queijo</a> 
+                    </span>
+
+                </div>
+
+                <div class="dish2">
+
+
+                    <img src="frango com quiabo.webp" class="dish-image" alt=""
+                    height="200px">
+                    <h4>Região Centro-Oeste </h4>
+                    <h3 class="dish-title">
+                      Frango com Quiabo
+                    </h3>
+
+                    <span class="dish-description">
+                        Frango com quiabo é um prato tradicional da culinária brasileira. É feito com pedaços de frango cozidos com quiabo, temperados com alho, cebola e às vezes tomate.
+                        <a href = https://www.tudogostoso.com.br/receita/4947-frango-com-quiabo-mineiro.html> </br></br></br>Frango com Quiabo</a> 
+                    </span>
+                </div>
+            </div>
+            <div id="dishes2">
+                <div class="dish2">
+                    
+                    <img src="arroz temperado.jpeg" class="dish-image" alt=""
+                    height="170px">
+                   <h4>Região Nordeste</h4>
+                    <h3 class="dish-title">
+                    Arroz Temperado
+                    </h3>
+ 
+                    <span class="dish-description">
+                        O arroz temperado é uma forma deliciosa e rápida de se preparar, 
+                        acrescentando sabores e aromas que elevam o prato simples a uma refeição mais saborosa e sustentável. Os ingredientes podem variar bastante, mas os mais comuns incluem cebola, alho, 
+                        pimentão, tomate e ervas como salsinha ou cebolinha.
+                        <a href = https://www.tudogostoso.com.br/receita/77718-arroz-temperado.html> </br></br></br>Arroz Temperado</a> 
+                    </span>
+
+                </div>
+                <div class="dish2">
+    
+                    <img src="bolo de cenoura.jpg" class="dish-image" alt=""
+                height="150px">
+                <h4>Região Sudeste</h4>
+                    <h3 class="dish-title">
+                       Bolo de Cenoura
+                    </h3>
+
+                    <span class="dish-description">
+                        O bolo de cenoura é amado por sua textura macia e sabor adocicado.
+                         É um bolo simples de fazer e muito versátil, frequentemente servido em lanches da tarde ou em festas. 
+                          A receita básica leva cenoura ralada, açúcar, ovos, óleo e farinha de trigo.
+                        <a href = https://www.tudogostoso.com.br/receita/2532-bolo-de-cenoura-com-cobertura-de-chocolate.html> </br></br></br></br></br></br></br> Bolo de Cenoura</a> 
+                    </span>
+                </div>
+
+                <div class="dish2">
+                   
+
+                    <img src="bolinho de chuva.jpg" class="dish-image" alt=""
+                    height="170px">
+                    <h4>Região Sudeste</h4>
+                       <h3
+                    class="dish-title">
+                    Bolinho de Chuva
+                    </h3>
+
+                    <span class="dish-description">
+                        O bolinho de chuva é um lanche tradicional da culinária brasileira, especialmente popular em dias chuvosos. 
+                        Esses bolinhos são fritos e têm uma textura macia por dentro, com uma casquinha dourada e crocante por fora.
+                        <a href = https://www.tudogostoso.com.br/receita/4683-bolinho-de-chuva.html> </br></br></br></br></br></br> Bolinho de Chuva</a> 
+                    </span>
+
+                </div>
+
+                <div class="dish2">
+
+
+                    <img src="sopa de mandioca.avif" class="dish-image" alt=""
+                    height="200px">
+                    <h4>Região Norte</h4>
+                    <h3 class="dish-title">
+                      Sopa de Mandioca
+                    </h3>
+
+                    <span class="dish-description">
+                        A sopa apresenta uma textura cremosa, resultado do cozimento da mandioca, que se desmancha e engrossa o caldo. 
+                        Seu sabor é suave e pode ser enriquecido com temperos e outros ingredientes, como carnes e legumes.
+                        <a href = https://www.tudogostoso.com.br/receita/2260-sopa-de-mandioca.html> </br></br></br></br></br> Sopa de Mandioca</a> 
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <section id="projeto">
+            <img src="https://i.ibb.co/ZM2knLc/mentes-brilhantes.png" id="testimonial_chef" alt="">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                   Projeto
+                </h2>
+                <h3 class="section-subtitle">
+                   Sobre o site
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="" class="feedbacks" alt="">
+
+                        <div class="feedback-content">
+                            <h4> Mentes Brilhantes </h4>
+                             
+                            <p>
+                                O site foi pensado para mostrar pratos típicos de cada região de São Paulo
+                                e como cada prato tem seu sabor único e sua receita completa para se avaliar!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="feedbacks" class="" alt="">
+                        <div class="feedback-content">
+                            <h4> Sobre mim </h4>
+                                
+                            <p>
+                                Sou aluna do Mentes Brilhantes e tenho a intenção de me aprofundar nessa área do TI. 
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="src/images/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy copyright 2024
+            </span>
+
+        </div>
+    </footer>
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
